@@ -16,8 +16,10 @@ export class NavbarComponent implements OnInit {
   Key:any;
   account:Account;
   user:boolean;
+  isauth = true;
 
   ngOnInit(): void {
+    
     this.getUser();
   }
 

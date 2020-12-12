@@ -41,6 +41,7 @@ export class HomeComponent implements OnInit {
 
 
   ngOnInit(): void {
+    
     this.tabla_workers();
     this.getUser();
   }
